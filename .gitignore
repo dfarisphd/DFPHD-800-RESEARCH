@@ -1,4 +1,14 @@
 ##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
+##
+## FILE-NAME => [".gitignore"]
+## FILE-PATH => ["${MY_DOCUMENTS}/DFPHD-800-GIT-REPOS/DFPHD-800-RESEARCH"]
+##
+## .gitignore file (see also .gitattributes file) for main research repo
+## yes - its a git repo
+##
+## [[ DFARIS,PHD :: 2013-11-15 :: ESOLAR - SWENG/CONTROLS - SPECTRA TESTING ]]
+##
+##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
 
 !.gitme
 !.gitignore
@@ -10,10 +20,15 @@
 
 !CMakeLists.txt
 
-DFPHD-888-GIT-REPOS-TONATIUH/
-OROCOS/
-SFORGE-KALMAN-EPMontreal/
+!RESEARCH-MATLAB/
 
+## >>D ([DFPHD:2013-11-15] Ignore the following directories)
+RESEARCH-REPOS-KALMAN-EPMontreal/
+RESEARCH-REPOS-OROCOS/
+RESEARCH-REPOS-TONATIUH/
+
+##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
+## this *was* a visual studio git ignore file previously - very useful!
 ##==+====1====+====2====+====3====+====4====+====5====+====6====+====7====+====8
 
 ## Ignore Visual Studio temporary files, build results, and
